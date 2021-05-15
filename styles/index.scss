@@ -17,6 +17,8 @@ body{
    background: #304352;
    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
    background: linear-gradient(to right, #d7d2cc, #304352);
+   min-width: 100vw;
+   min-height: 100vh;
 }
 
 .container__spiner{

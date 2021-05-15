@@ -24,24 +24,14 @@ const getData = async () => {
 
 const data = await getData();
 
-await render();
-
-cards(data);
-nav(data);
-pageMeta(data);
-pageText(data);
-sidebar(data);
-findWithParametrs(data);
-pagination(data);
-sort(data);
-
+render();
 
 if (data !== undefined) {
   wrapper.style.opacity = 1;
   spinner__page.style.display = 'none';
 }
 
-async function render(){
+function render(){
   wrapper.innerHTML = `
   <div class='container container-sm'>
       <header class="row header">
@@ -198,4 +188,13 @@ async function render(){
       </footer>
     </div>
   `
+
+  cards(data);
+  nav(data);
+  pageMeta(data);
+  pageText(data);
+  sidebar(data);
+  findWithParametrs(data);
+  pagination(data);
+  sort(data);
 }
