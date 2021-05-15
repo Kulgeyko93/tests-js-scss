@@ -1,0 +1,14 @@
+// color
+
+$white: #fff;
+$Primary: #56CCF2;
+$link:#2F80ED;
+$black:#333333;
+$defaultText: #4F4F4F;
+$borders:#BDBDBD;
+$backgroundBody:#D9D9D9;
+
+@mixin inputText {
+  font-size: 1rem;
+  padding: 7px 8px;
+}
