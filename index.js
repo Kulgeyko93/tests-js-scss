@@ -60,7 +60,6 @@ function render(){
           <div><hr class="dropdown-divider"></div>
 
           <div class="sidebar__paramtr-2 row">
-
           </div>
 
           <div><hr class="dropdown-divider"></div>
@@ -192,9 +191,10 @@ function render(){
   cards(data);
   nav(data);
   pageMeta(data);
-  pageText(data);
-  sidebar(data);
-  findWithParametrs(data);
+  pageText(data)
   pagination(data);
   sort(data);
+  sidebar(data);
+  findWithParametrs(data);
+
 }

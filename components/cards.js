@@ -3,6 +3,9 @@ const cards = (data) => {
   const card__content = document.querySelector('.content__cards');
   card__content.innerHTML = '';
 
+  const sidebar__results = document.querySelector('.sidebar__results');
+  sidebar__results.innerHTML = `<h4>${data.stock.length} Result found</h4>`
+
   data.stock.map((item) => {
     let collapseName = item.title.match(/[a-zA-Z]/g).join('');
 

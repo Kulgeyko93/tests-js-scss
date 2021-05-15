@@ -1,10 +1,10 @@
 import cards from './cards.js';
 
 const findWithParametrs = (data) => {
-  const configuration__parametrs = document.querySelectorAll('#collapseConfiguration span');
-  const configuration__param= document.querySelector('#collapseConfiguration');
-  const years__parametrs = document.querySelectorAll('#collapseYear span');
-  const years__param = document.querySelector('#collapseYear');
+  const configuration__parametrs = document.querySelectorAll('.collapseConfiguration span');
+  const configuration__param= document.querySelector('.collapseConfiguration');
+  const years__parametrs = document.querySelectorAll('.collapseYear span');
+  const years__param = document.querySelector('.collapseYear');
   const btn__search = document.querySelector('.sidebar__search');
   const minPriceDOM = document.querySelector('.minPrice');
   const maxPriceDOM = document.querySelector('.maxPrice');
