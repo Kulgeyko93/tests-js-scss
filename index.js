@@ -23,7 +23,9 @@ const getData = async () => {
 
 
 const data = await getData();
-render();
+
+await render();
+
 cards(data);
 nav(data);
 pageMeta(data);
@@ -39,7 +41,7 @@ if (data !== undefined) {
   spinner__page.style.display = 'none';
 }
 
-function render(){
+async function render(){
   wrapper.innerHTML = `
   <div class='container container-sm'>
       <header class="row header">
