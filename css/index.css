@@ -82,6 +82,27 @@ body {
   background: linear-gradient(to right, #d7d2cc, #304352);
 }
 
+.container__spiner {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container__spiner .spinner__page {
+  width: 300px !important;
+  height: 300px !important;
+  color: #fff;
+}
+
 .container {
   max-width: 100%;
   max-height: 100%;

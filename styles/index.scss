@@ -19,6 +19,19 @@ body{
    background: linear-gradient(to right, #d7d2cc, #304352);
 }
 
+.container__spiner{
+   position: absolute;
+   @include flex-center();
+   width: 100vw;
+   height: 100vh;
+   .spinner__page{
+      width: 300px !important;
+      height: 300px !important;
+      color: $white;
+   }
+}
+
+
 .container{
    max-width: 100%;
    max-height: 100%;
