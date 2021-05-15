@@ -222,6 +222,16 @@ body{
          font-size: 1.3em;
          text-align: justify;
       }
+      .footer__contacts__socials{
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+
+         img{
+            width: 25px;
+            height: 25px;
+         }
+      }
 
       @media (max-width: 767px) {
          .footer__contacts{

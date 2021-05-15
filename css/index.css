@@ -409,6 +409,22 @@ body {
   text-align: justify;
 }
 
+.container footer .footer__contacts__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container footer .footer__contacts__socials img {
+  width: 25px;
+  height: 25px;
+}
+
 @media (max-width: 767px) {
   .container footer .footer__contacts {
     font-size: 1.1em;
